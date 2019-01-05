@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimary"
+    android:background="@color/white"
     android:elevation="4dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
@@ -22,7 +22,8 @@
         android:layout_height="match_parent"
         android:src="@mipmap/ic_launcher"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_gravity="end"
+
+        android:layout_gravity="center"
         />
       <TextView
           android:id="@+id/toolbar_title"
@@ -30,9 +31,10 @@
           android:layout_height="match_parent"
           android:text="Sign Up"
           android:gravity="center"
-          android:textColor="@color/white"
+          android:textColor="@color/colorPrimary"
           android:textSize="20dp"
           android:textStyle="bold"
+          android:layout_gravity="end"
          />
 
 
