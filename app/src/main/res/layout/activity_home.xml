@@ -13,6 +13,7 @@
         layout="@layout/toolbar"/>
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -21,7 +22,20 @@
         android:layout_marginLeft="30dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="47dp"
-        android:text="Welcome user"
-        android:textSize="24sp"
-        android:id="@+id/textView4" />
+        android:text="Welcome "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="47dp"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
 </RelativeLayout>
